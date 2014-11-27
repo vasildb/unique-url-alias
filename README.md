@@ -11,7 +11,8 @@ Convert a text to a url-friendly text, plus check for the uniqueness of it.
         * the users' count which match the alias.
         * If the count is positive, means there are already rows
         * with the current alias, so the function returns false,
-        * otherwise return true
+        * otherwise returns true.
+        * Change the code below with your own checking mechanism.
         */
         return !(bool)DB::Model_User::getByAlias($alias)->count();
     });
