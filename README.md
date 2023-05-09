@@ -3,7 +3,7 @@ Unique URL Alias
 
 Convert a text to a url-friendly text, plus check for the uniqueness of it.
 
-##Usage
+## Usage
 ```php
     $alias = UrlHelper::alias('My Post Name', function($alias) {
         /*
